@@ -1,0 +1,14 @@
+{
+  "name": "collab-annotate-editor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "多人轻量协同批注编辑器（Vue3 + TS + Pinia + Element Plus + WebSocket + OT）",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix web install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "typecheck": "npm --prefix web run typecheck",
+    "test": "npm --prefix server test"
+  }
+}

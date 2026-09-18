@@ -1,0 +1,15 @@
+{
+  "name": "collab-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "协同批注编辑器服务端：WebSocket + OT（操作变换）+ 房间/权限管理",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
